@@ -33,6 +33,7 @@ export default {};
 
 .navbar-container {
   background-color: $color-primary;
+  height: 89vh;
 
   .row {
     display: flex;
@@ -42,6 +43,7 @@ export default {};
   & .welcome-text {
     font-size: 60px;
     font-weight: 900;
+    color: $color-secondary;
   }
 
   & .welcome-subheading {
@@ -49,6 +51,7 @@ export default {};
     font-size: 15px;
     font-weight: 500;
     margin: 5% 0%;
+    color: $color-secondary;
   }
 
   & .btn {
