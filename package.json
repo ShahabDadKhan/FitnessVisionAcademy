@@ -10,12 +10,16 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
+    "vue-slick-carousel": "^1.0.6",
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@nuxtjs/vuetify": "^1.12.1",
+    "font-awesome": "^4.7.0",
     "sass": "^1.44.0",
     "sass-loader": "^10.2.0"
   }

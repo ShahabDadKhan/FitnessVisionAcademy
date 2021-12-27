@@ -15,7 +15,9 @@
           </div>
         </v-col>
         <v-col md="5">
-          <v-img src="/assets/Img/welcome-1.jpg"></v-img>
+          <no-ssr>
+            <v-img src="Img/welcome-1.jpg" class="welcome"></v-img>
+          </no-ssr>
         </v-col>
       </v-row>
     </v-container>
@@ -27,7 +29,8 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.contanier {
+.container {
+  height: 100%;
   background-color: $color-primary;
 }
 
@@ -36,8 +39,10 @@ export default {};
   height: 89vh;
 
   .row {
+    height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   & .welcome-text {
@@ -57,6 +62,14 @@ export default {};
   & .btn {
     color: white;
     background-color: $color-secondary;
+  }
+
+  .welcome {
+    max-width: 90%;
+    border-radius: 50%;
+    background: transparent;
+    // background-color: red;
+    background-blend-mode: multiply;
   }
 }
 </style>

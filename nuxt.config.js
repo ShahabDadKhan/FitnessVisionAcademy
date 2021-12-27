@@ -40,6 +40,10 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
   ],
+  // Impor for Font - Awsome Icons
+  fontawesome: {
+    icons: ["faHome", "faHeart", "fa-heartbeat"],
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -52,6 +56,7 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    // defaultAssets: { icons: "fa" },
     customVariables: ["~/assets/variables.scss"],
     theme: {
       dark: true,

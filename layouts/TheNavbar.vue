@@ -3,15 +3,9 @@
     <v-container>
       <v-row class="navbar">
         <v-col md="2">
-          <div style="width: 70px; height: 70px" class="links">
-            <v-img
-              max-height="100%"
-              max-width="100%"
-              src="../assets/Img/logo.jpg"
-            ></v-img>
+          <div class="links">
+            <v-img src="Img/logo.jpg" class="logo-img"></v-img>
           </div>
-          <!-- <img width="50" height="50" src="/assets/Img/logo.jpg" alt="Img" /> -->
-          <!-- Logo -->
         </v-col>
         <v-col md="5" class="links-container">
           <ul>
@@ -53,6 +47,16 @@ export default {};
   // flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  .logo-img {
+    // max-height: "100%";
+    max-width: 80%;
+    border-radius: 50%;
+  }
+
+  .links {
+    width: 70px;
+  }
 
   & .links-container {
     // display: flex;
