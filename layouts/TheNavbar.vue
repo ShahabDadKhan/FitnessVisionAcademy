@@ -33,7 +33,7 @@ export default {};
 
 <style lang="scss" scoped>
 .navbar-container {
-  background-color: $color-primary;
+  // background-color: $color-primary;
   height: 15vh;
 }
 
@@ -69,6 +69,7 @@ export default {};
         display: flex;
         align-items: center;
         // color: $color-light;
+        color: white;
         cursor: pointer;
         font-weight: 600;
         list-style: none;

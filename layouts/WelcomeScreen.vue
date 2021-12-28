@@ -16,7 +16,7 @@
         </v-col>
         <v-col md="5">
           <no-ssr>
-            <v-img src="Img/welcome-1.jpg" class="welcome"></v-img>
+            <!-- <v-img src="Img/welcome-1.jpg" class="welcome"></v-img> -->
           </no-ssr>
         </v-col>
       </v-row>
@@ -31,11 +31,12 @@ export default {};
 <style lang="scss" scoped>
 .container {
   height: 100%;
-  background-color: $color-primary;
+  // background-color: $color-primary;
+  // background: url("../static/Img/welcome.jpg");
 }
 
 .navbar-container {
-  background-color: $color-primary;
+  // background-color: $color-primary;
   height: 89vh;
 
   .row {
@@ -48,7 +49,8 @@ export default {};
   & .welcome-text {
     font-size: 60px;
     font-weight: 900;
-    color: $color-secondary;
+    // color: $color-secondary;
+    color: white;
   }
 
   & .welcome-subheading {
@@ -56,7 +58,8 @@ export default {};
     font-size: 15px;
     font-weight: 500;
     margin: 5% 0%;
-    color: $color-secondary;
+    // color: $color-secondary;
+    color: white;
   }
 
   & .btn {

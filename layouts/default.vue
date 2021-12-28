@@ -1,7 +1,9 @@
 <template>
   <v-container fluid>
-    <the-navbar />
-    <welcome-screen />
+    <div class="bg">
+      <the-navbar />
+      <welcome-screen />
+    </div>
     <section-2 />
     <!-- <error /> -->
   </v-container>
@@ -27,6 +29,12 @@ html {
   font-family: "Assistant", Volkhov;
   font-size: 18px;
   font-weight: 400;
+}
+
+.bg {
+  background: url("../static/Img/welcome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
