@@ -4,11 +4,13 @@
     <welcome-screen />
     <section-2 />
     <section-3 />
+    <our-service />
     <!-- <error /> -->
   </v-container>
 </template>
 
 <script>
+import OurService from "./OurService.vue";
 import Section2 from "./section-2.vue";
 import Section3 from "./section-3.vue";
 // import error from "./error.vue";
@@ -21,6 +23,7 @@ export default {
     WelcomeScreen,
     Section2,
     Section3,
+    OurService,
   },
 };
 </script>
