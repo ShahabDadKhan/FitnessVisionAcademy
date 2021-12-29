@@ -3,12 +3,14 @@
     <the-navbar />
     <welcome-screen />
     <section-2 />
+    <section-3 />
     <!-- <error /> -->
   </v-container>
 </template>
 
 <script>
 import Section2 from "./section-2.vue";
+import Section3 from "./section-3.vue";
 // import error from "./error.vue";
 import TheNavbar from "./TheNavbar.vue";
 import WelcomeScreen from "./WelcomeScreen.vue";
@@ -18,6 +20,7 @@ export default {
     TheNavbar,
     WelcomeScreen,
     Section2,
+    Section3,
   },
 };
 </script>

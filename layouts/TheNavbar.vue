@@ -10,10 +10,10 @@
         <v-col md="5" class="links-container">
           <ul>
             <a href="#">Home</a>
+            <a href="#">About Us</a>
             <a href="#">Service</a>
-            <a href="#">Our Team</a>
+            <!-- <a href="#">Courses</a> -->
             <a href="#">Blog</a>
-            <a href="#">Contact</a>
             <a href="#"
               >Let's <br />
               Talk</a
@@ -49,6 +49,7 @@ export default {};
   justify-content: space-between;
 
   .logo-img {
+    cursor: pointer;
     // max-height: "100%";
     max-width: 80%;
     border-radius: 50%;

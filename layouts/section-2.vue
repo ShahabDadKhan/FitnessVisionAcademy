@@ -17,17 +17,22 @@
         </v-col>
       </v-row>
       <v-row class="down">
-        <h2>More Impressive Than Our Service is Our Team, Our Family</h2>
-        <p>
-          Therapy is not only our profession - it's our passion. We will work
-          togther with you for the best outcome and we try to amke rehabitation
-          effective and fun, in a professional yet causal environment. Our
-          experienced clinical team has cumulative experience. Our physical and
-          occupational therapists and athletic trainer work in conjuction with
-          the office staff to ensure that you have necessary appointments to
-          help you achieve your therapy goals. The office staff is available to
-          answer any of your appointment and billing questions.
-        </p>
+        <div>
+          <h2>About Us</h2>
+          <p>
+            In 2018 the Fitness Vision Academy was established and teaching many
+            disciples about the method of training and the art of changing
+            lifestyles. Fitness Vision academy is India most prestigious fitness
+            learning training center for fitness learners. Purpose is dedicated
+            to making a career in the fitness industry. We offer different
+            courses, different programs because we want everyone to be able to
+            make their dream their career. We provide services from American,
+            European bodies such as FOUNDATION COURSE FOR BEGINNERS, ACE, ACSM,
+            NASM, CSCS and we are a recognized institution which allows us to
+            not only award certifications but also offer diplomas in the field
+            of fitness.
+          </p>
+        </div>
       </v-row>
     </v-container>
   </div>
@@ -78,7 +83,7 @@ export default {
 
     .top {
       width: 80%;
-      height: 30vh;
+      height: 0%;
       background: white;
       margin-top: -4%;
       z-index: 1;
@@ -98,6 +103,7 @@ export default {
           max-height: 40%;
           font-size: 30px;
           font-weight: 700;
+          color: $color-secondary;
 
           span {
             color: $color-primary;
@@ -155,7 +161,30 @@ export default {
     }
 
     .down {
-      height: 70vh;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // height: 70vh;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      h2 {
+        font-size: 32px;
+        color: $color-secondary;
+        margin-bottom: 3%;
+        font-weight: 900;
+      }
+      p {
+        width: 90%;
+        line-height: 1.5;
+        font-size: 22px;
+      }
     }
   }
 }

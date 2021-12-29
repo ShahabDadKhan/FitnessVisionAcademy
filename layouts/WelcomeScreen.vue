@@ -4,7 +4,8 @@
       <v-row>
         <v-col md="5">
           <div class="welcome-text">
-            Fox Valley Physical Therapy & Wellness Clinic
+            Fitness Vision Academy & <br />
+            Gym
           </div>
           <div class="welcome-subheading">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veniam,
@@ -54,7 +55,7 @@ export default {};
   & .welcome-subheading {
     line-height: 1.5;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 5% 0%;
     color: $color-secondary;
   }
