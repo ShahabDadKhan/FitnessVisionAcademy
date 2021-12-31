@@ -40,6 +40,7 @@
 
 <script>
 export default {
+  name: "section-3",
   data() {
     return {
       values: [
@@ -93,6 +94,7 @@ export default {
 
     .col {
       background-color: $color-light-grey;
+      // background-color: $color-primary;
     }
   }
   .row {
@@ -102,6 +104,7 @@ export default {
     .col {
       display: flex;
       justify-content: center;
+      cursor: default;
 
       img {
         transition: transform 0.2s;
@@ -111,6 +114,7 @@ export default {
           transform: scale(1.05);
           -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
           filter: blur(1px);
+          cursor: pointer;
         }
       }
 

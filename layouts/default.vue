@@ -6,6 +6,7 @@
     <section-3 />
     <our-service />
     <!-- <error /> -->
+    <the-footer />
   </v-container>
 </template>
 
@@ -13,6 +14,7 @@
 import OurService from "./OurService.vue";
 import Section2 from "./section-2.vue";
 import Section3 from "./section-3.vue";
+import TheFooter from "./TheFooter.vue";
 // import error from "./error.vue";
 import TheNavbar from "./TheNavbar.vue";
 import WelcomeScreen from "./WelcomeScreen.vue";
@@ -24,6 +26,7 @@ export default {
     Section2,
     Section3,
     OurService,
+    TheFooter,
   },
 };
 </script>
